@@ -1,14 +1,105 @@
 <!doctype html>
-<html lang="en">
+<html>
   <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite + React</title>
-    <script type="module" crossorigin src="/assets/index-aK2siG7F.js"></script>
-    <link rel="stylesheet" crossorigin href="/assets/index-BmAVGTu2.css">
+    <!-- Page setup -->
+    <meta charset="utf-8">
+    <title>invention-2025</title>
+    <meta name="description" content="A brief description of your site for search engines">
+    <meta name="author" content="Information about the author here">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"/>
+    <link rel="icon" type="image/png" href="logo.png">
+  
+    <!-- Stylesheets -->
+    <!-- Reset default styles and add support for google fonts -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet" type="text/css" />
+    <link href="http://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" type="text/css" />
+   
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Custom styles -->
+    <link href="style.css" rel="stylesheet" type="text/css" />
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>    
+
+    <style>
+      /* Add custom styles here */
+      #downloadButton {
+          display: inline-block;
+          padding: 10px 20px;
+          font-size: 16px;
+          text-align: center;
+          text-decoration: none;
+          border: 2px solid #6ab9dc;
+          border-radius: 15px; /* Untuk memberikan lengkungan di setiap sudut */
+          cursor: pointer;
+          transition: background-color 0.3s ease; /* Efek transisi warna latar belakang */
+      }
+
+      #downloadButton:hover {
+          background-color: #6ab9dc; /* Warna latar belakang saat tombol dihover */
+          color: white; /* Warna teks saat tombol dihover */
+      }
+  </style>
+    
   </head>
+  
   <body>
-    <div id="root"></div>
+
+    <header id="header">
+      <img src="logo.png" width="160px" height="150px">
+      <h1>INVENTION 2024 👩🏻‍💻🚀🖥🧑🏻‍💻 </h1>
+      
+      <!-- Menu link fragment #id should match a div id. Example: <a href="#home"> links to <div id="home"></div>  -->
+      <ul class="main-menu">
+        <li><a href="#home">home</a></li>
+        <li><a href="#about">about</a></li>
+        <li><a href="#contact">contact</a></li>
+      </ul>                 
+    </header>
+   
+    <div id="container">
+      <div class="inner">
+        <div id="content"> 
+          
+          <div id="home" class="content-region hide">
+            <h2>Home</h2>
+            <p>
+              Hello 👋👋, welcome, this is the homepage of this website. You have successfully deployed this website. Congratulations 🤟🤟.
+            </p>
+
+            <a id="downloadButton" download="contohs.txt" href="soal.txt">Download Soal</a>
+            <a id="downloadButton" download="soalcisco.pka" href="cisco.pka">Download Soal Cisco</a>
+            <!-- <button id="downloadButton" onclick="downloadFile()">Download Soal</button> -->
+            <!-- <button id="downloadButton" onclick="downloadSoal()">Download PKA cisco</button> -->
+          </div>
+   
+
+          
+          <div id="about" class="content-region hide">
+            <h2>About</h2>
+            <p>
+              simple website used for IVENTION 2024. 
+            </p>
+          </div>
+          
+          <div id="contact" class="content-region hide">
+            <h2>Contact</h2>
+            <p>
+              IG : for.kits 
+            </p>
+            <p> YT : KITS MEDIA </p>
+            <p> Gmail : forkits.jaya@gmail.com </p>
+          </div>
+
+          
+        </div>
+      </div>
+    </div>
+    
+    <!-- Load additional JS scripts here -->
+    <script type="text/javascript" src="script.js"></script>
+    
   </body>
 </html>
