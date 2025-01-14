@@ -1,0 +1,17 @@
+1. Jelaskan apa yang dimaksud dengan kode response http berikut:
+   a. 500
+   b. 404
+   c. 403
+   d. 200
+
+2. Jelaskan apa yang dimaksud dengan command berikut:
+   a. git pull
+   b. git push
+   c. git clone 
+   d. chmod 755 /DATA/sourcecode/public -R
+   e. chown www-data:developer /DATA/sourcecode/public
+
+   Jawaban disini.
+1.
+
+2
