@@ -1,17 +1,15 @@
-1. Jelaskan apa yang dimaksud dengan kode response http berikut:
-   a. 500
-   b. 404
-   c. 403
-   d. 200
+1. Jelaskan fungsi dan dampak dari perintah-perintah berikut pada konfigurasi jaringan di Debian:
+    a. ip link set enp0s3 up
+    b. dpkg --configure -a
+    c. echo "nameserver 8.8.8.8" >> /etc/resolv.conf
+    d. netstat -tulpn
 
-2. Jelaskan apa yang dimaksud dengan command berikut:
-   a. git pull
-   b. git push
-   c. git clone 
-   d. chmod 755 /DATA/sourcecode/public -R
-   e. chown www-data:developer /DATA/sourcecode/public
+2. Jelaskan arti dan penggunaan kode status HTTP berikut, serta kapan masing-masing muncul dalam konteks web server:
+    a. 301
+    b. 403
+    c. 503
+    d. 200
 
-   Jawaban disini.
-1.
 
-2
+Silahkan jawab dibawah ini:
+1. 
