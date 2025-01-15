@@ -8,13 +8,13 @@ Step 1 : Install package yg dibutuhkan
     
 Step 2: Download Source Code
 
-    git clone https://github.com/tiaradwim1306/simple-web
+    git clone https://github.com/SonyVansha/invention-2025.git
 
 Step 3: Edit file VirtualHost
 
     .......
     ServerAdmin webmaster@localhost
-    DocumentRoot /var/www/html/simple-web
+    DocumentRoot /var/www/html/invention-2025
     .......
 
 Step 4 : 
@@ -27,8 +27,8 @@ Step 5: Restart apache2
 
 Step 6: Access web server
 
-    http://ip_address_server/  
+    http://your_ip_address_server/  
 
 ## Result
-![image](https://github.com/tiaradwim1306/simple-web/assets/120786669/a12cf73a-0836-4e01-9e7e-d14551cbe4aa)
+![alt text](image.png)
 
